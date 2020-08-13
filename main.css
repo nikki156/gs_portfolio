@@ -1,8 +1,12 @@
 html{
     height: 100%;
+    /*font-family: 'Inconsolata', monospace;*/
+    font-family: 'Dancing Script', cursive;
 }
 
 body{
+    padding: 0;
+    margin: 0;
     height: 100%;
 }
 
@@ -13,6 +17,7 @@ body{
 .main_wrapper{
     height: 100vh;
     width:100%;
+    display: flex;
 }
 
 .sidebar{
@@ -31,8 +36,10 @@ body{
 }
 
 .sidebar_header_content{
-    font-size: 30px;
+    font-size: 40px; /*30px;*/
     font-weight: bold;
+    color: white;
+    font-family: 'Dancing Script', cursive;
 }
 
 .sidebar_navigation{
@@ -45,8 +52,14 @@ body{
 }
 
 .sidebar_navigation_item{
-    font-size: 25px;
+    font-size: 30px;    /*25px; */
+    color: white;
 
+}
+
+.main_area{
+    width: 80%;
+    height: 100%;
 }
 
 .main_area_header{
@@ -63,5 +76,5 @@ body{
 
 .main_area_header li{
     padding: 0px 30px;
-    font-size: 20px;
+    font-size: 25px;/*20px;*/
 }
