@@ -60,6 +60,7 @@ body{
 .main_area{
     width: 80%;
     height: 100%;
+    display: flex;
 }
 
 .main_area_header{
@@ -67,6 +68,8 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: fixed;
+    width: 80%;
 }
 
 .main_area_header ul{
@@ -77,4 +80,35 @@ body{
 .main_area_header li{
     padding: 0px 30px;
     font-size: 25px;/*20px;*/
+}
+
+.profile_wrapper{
+    width: 60%;
+    height: 100%;
+    background-image: url('./img/img-1.jpg');
+    background-position: center, center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+
+.main_area_content{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main_area_content_heading{
+    font-size: 40px;
+    font-weight: bold;
+    /* text-decoration: underline; */
+
+}
+
+.main_area_content_sub_heading{
+    font-size: 30px;
+    margin-top: 10px;
 }
