@@ -1,26 +1,12 @@
-var incButton = document.querySelector('.increment');
-var decButton = document.querySelector('.decrement');
-var counter = document.querySelector('.counter_value');
+var todos=[];
 
-function setCounterValue(num){
-    var currentValue =Number(counter.textContent);
-    if(num>0){
-        currentValue += 1;
+var todo_list_wrapper = document.querySelector('.show_todo');
+
+
+function updateTodoList(){
+    if(todos.length == 0){
+        
     }
-    else{
-        currentValue -=  1;
-    }
-    counter.textContent = currentValue;
-
 }
 
-function increment(){
-    setCounterValue(1);
-}
-
-function decrement(){
-    setCounterValue(-1);
-}
-
-incButton.addEventListener('click', increment);
-decButton.addEventListener('click', decrement);
+updateTodoList();
