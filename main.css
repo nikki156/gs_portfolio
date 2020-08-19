@@ -1,3 +1,7 @@
+body{
+    font-family: Inconsolata, monospace;
+}
+
 .container{
     padding: 5rem;
     display: flex;
@@ -12,17 +16,13 @@ input{
     border-radius: 10px;
 }
 .form_wrapper{
-    width: ;
+    width: 45%;
 }
 
 button{
-    
-}
+    height: 40px;
+    width:150px;
 
-.todo_form{
-    border: 1px solid black;
-    height: 200px;
-    width: 100px;
 }
 
 .show_todo{
@@ -30,4 +30,7 @@ button{
     min-height: 100px;
     background-color: #ccc;
     padding:30px;
+}
+#cancel{
+    display: none;
 }
